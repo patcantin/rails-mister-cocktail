@@ -1,0 +1,13 @@
+
+<div class="show_all">
+  <% @cocktails.each do |cocktail| %>
+    <%= link_to cocktail do  %>
+    <div class="card">
+      <h2><%= cocktail.name %></h2>
+      <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+    </div>
+    <% end %>
+  <% end %>
+</div>
+
+
