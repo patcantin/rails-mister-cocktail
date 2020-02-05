@@ -1,6 +1,5 @@
 
 <div class="show_all">
-
   <% @cocktails.each do |cocktail| %>
     <%= link_to cocktail do  %>
     <div class="card">
@@ -10,6 +9,9 @@
     <% end %>
   <% end %>
 </div>
-<p class="total"><%= @cocktails.count %> cocktails listed</p>
+
+  <p class="total"><%= @cocktails.count %> cocktails listed</p>
+
+
 
 
