@@ -39,15 +39,15 @@ grape = Ingredient.create!(name: "grapefruit")
 #   Ingredient.create(name: i["strIngredient1"])
 # end
 
-puts "creating cocktails"
+# puts "creating cocktails"
 
-ginto = Cocktail.create!(name: "gin tonic")
+# ginto = Cocktail.create!(name: "gin tonic")
 
-puts "creating doses"
+# puts "creating doses"
 
-Dose.create!(cocktail: ginto, ingredient: gin, description: "45ml (1 1/2 oz)")
-Dose.create!(cocktail: ginto, ingredient: to, description: "60 ml (2oz)")
-Dose.create!(cocktail: ginto, ingredient: grape, description: "1 slice")
-Dose.create!(cocktail: ginto, ingredient: ice, description: "3 or 4")
+# Dose.create!(cocktail: ginto, ingredient: gin, description: "45ml (1 1/2 oz)")
+# Dose.create!(cocktail: ginto, ingredient: to, description: "60 ml (2oz)")
+# Dose.create!(cocktail: ginto, ingredient: grape, description: "1 slice")
+# Dose.create!(cocktail: ginto, ingredient: ice, description: "3 or 4")
 
 puts "finished ! you can play now."
