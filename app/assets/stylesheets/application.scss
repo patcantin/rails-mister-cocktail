@@ -25,24 +25,26 @@ body {
   width: 60%;
 }
 
-@media only screen and (max-width: 900px) {
-  .container{
-    padding-bottom: 60px;
-}
-}
 .container a {
   text-decoration: none;
   color: black;
 }
 
 .top_h1{
-  color: white;
+  color: purple;
   font-size: 30px;
   text-align: center;
   margin-top: 20px;
   // background-color: rgba(0, 0, 0, 0.7);
-  background-color: rgba(0, 0, 0, 0.4); /* For browsers that do not support gradients */
+  // background-color: rgba(0, 0, 0, 0.4); /* For browsers that do not support gradients */
   font-family: 'Righteous', cursive;
 }
+
+@media only screen and (max-width: 900px) {
+  .container{
+    padding-bottom: 60px;
+}
+}
+
 
 
