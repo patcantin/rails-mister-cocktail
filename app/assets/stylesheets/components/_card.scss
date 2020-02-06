@@ -109,4 +109,10 @@
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .card-product > img{
+    width: 150px;
+  }
+}
+
 
