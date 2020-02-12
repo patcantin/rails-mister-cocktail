@@ -1,5 +1,6 @@
 class CocktailsController < ApplicationController
   before_action :set_cocktail, only: %i(show destroy)
+  skip_before_action :authenticate_user!, only: :index
 
   def index
     @cocktails = Cocktail.all
