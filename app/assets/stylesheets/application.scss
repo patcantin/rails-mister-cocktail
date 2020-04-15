@@ -13,6 +13,7 @@
 @import "pages/index";
 
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap');
 
 body {
   position: relative;
@@ -42,6 +43,14 @@ body {
 
 .header-form-title{
   margin-top:20px;
+}
+
+.mess{
+  text-align: center;
+  padding: 10px;
+  font-family: 'Baloo Paaji 2', cursive;
+  font-size: 20px;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 900px) {

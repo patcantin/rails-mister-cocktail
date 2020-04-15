@@ -14,7 +14,7 @@
     <br>
     <% if user_signed_in? %>
       <%= link_to 'Delete cocktail', @cocktail, method: :delete, class: "btn btn-primary btn-sm" %>
-      <%= link_to 'Add a new dose', new_cocktail_dose_path(@cocktail), class: "btn btn-primary btn-sm" %>
+      <%= link_to 'Edit ingredients', new_cocktail_dose_path(@cocktail), class: "btn btn-primary btn-sm" %>
     <% else %>
       <%= link_to "login to edit cocktail", new_user_session_path, class: "btn btn-primary" %>
     <% end %>
